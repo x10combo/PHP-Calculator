@@ -9,8 +9,9 @@ For example, my directory would be: "http://localhost:8095/PHP-Calculator/app/".
 <p></p>
 
 <p>• To perform unit testing:</p>
-First, access the testing branch of this project. 
-Open a Bash terminal and make sure all your dependencies are present:
+First, access the testing branch of this project. Clone the project to your local machine, then
+open a Bash terminal and make sure all your dependencies are present:
+
 ![image](https://github.com/x10combo/PHP-Calculator/assets/115559784/426e0d30-a471-4521-95b9-95bbdeab3661)
 
 Then, to confirm PHPUnit is correctly installed, execute this command from the same Bash terminal:
