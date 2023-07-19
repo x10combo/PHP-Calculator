@@ -1,4 +1,4 @@
-# PHP-Calculator
+# Unit Testing for a PHP Calculator
 Basic calculator interface created in PHP to showcase knowledge in Unit Testing/Functional Testing
 
 • To access the calculator itself:
@@ -7,8 +7,8 @@ From there, after ensuring your port connection is OK, connect via localhost.
 For example, my directory would be: "http://localhost:8095/PHP-Calculator/app/". You have now accessed the calculator.
 
 • To perform unit testing:
-First, access the testing branch of this project. Open a Bash terminal and make sure all your dependencies are present and up to date.
-It should look something like this:
+First, access the testing branch of this project. 
+Open a Bash terminal and make sure all your dependencies are present:
 ![image](https://github.com/x10combo/PHP-Calculator/assets/115559784/426e0d30-a471-4521-95b9-95bbdeab3661)
 
 Then, to confirm PHPUnit is correctly installed, execute this command from the same Bash terminal:
