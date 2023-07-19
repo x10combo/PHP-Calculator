@@ -1,12 +1,14 @@
 # Unit Testing for a PHP Calculator
 Basic calculator interface created in PHP to showcase knowledge in Unit Testing/Functional Testing
 
-• To access the calculator itself:
+<p>• To access the calculator itself:</p>
 Clone the project to your local machine, open XAMPP, then paste the project files into your htdocs folder. 
 From there, after ensuring your port connection is OK, connect via localhost. 
 For example, my directory would be: "http://localhost:8095/PHP-Calculator/app/". You have now accessed the calculator.
+<p></p>
+<p></p>
 
-• To perform unit testing:
+<p>• To perform unit testing:</p>
 First, access the testing branch of this project. 
 Open a Bash terminal and make sure all your dependencies are present:
 ![image](https://github.com/x10combo/PHP-Calculator/assets/115559784/426e0d30-a471-4521-95b9-95bbdeab3661)
