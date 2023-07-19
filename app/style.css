@@ -3,3 +3,28 @@
     width: 150px; 
     display: inline;
 }
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    position: relative;
+}
+
+.inputField {
+	margin-bottom: 10px;
+}
+
+.result {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}

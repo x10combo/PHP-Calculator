@@ -13,18 +13,27 @@
 
 			<?php require_once "./calcController.php";?>
 
-		    <!-- Calculator form -->
-		    <form method="post">
-		        <input name="number1" type="text" class="form-control inputField" />
-		        <select name="operation">
-		        	<option value="plus">Plus</option>
-		            <option value="minus">Minus</option>
-		            <option value="times">Times</option>
-		            <option value="divided by">Divided By</option>
-		        </select>
-		        <input name="number2" type="text" class="form-control inputField" />
-		        <input name="submit" type="submit" value="Calculate" class="btn btn-primary" />
-		    </form>
+		    <div class="container calculator">
+			<?php require_once "./calcController.php";?>
+			<form method="post">
+				<div class="form-group">
+					<input name="number1" type="text" class="form-control inputField" placeholder="Enter number 1" />
+				</div>
+				<div class="form-group">
+					<select name="operation" class="form-control">
+						<option value="plus">Plus</option>
+						<option value="minus">Minus</option>
+						<option value="times">Times</option>
+						<option value="divided by">Divided By</option>
+					</select>
+				</div>
+				<div class="form-group" style="margin-top: 10px;">
+					<input name="number2" type="text" class="form-control inputField" placeholder="Enter number 2" />
+				</div>
+				<div class="form-group">
+					<input name="submit" type="submit" value="Calculate" class="btn btn-primary btn-block" />
+				</div>
+			</form>
 		</div>
 	</body>
 </html>
