@@ -9,7 +9,7 @@ class CalculatorTest extends \PHPUnit\Framework\TestCase {
         $result = $calculator -> add(20,5);
 
         //Asserts if two values are the same
-        $this -> assertEquals(25, $result); 
+        $this -> assertSame(25, $result); 
     }
 
     public function testSubstract() {
@@ -18,7 +18,7 @@ class CalculatorTest extends \PHPUnit\Framework\TestCase {
         $result = $calculator -> subtract(20,5);
 
         //Asserts if two values are the same
-        $this -> assertEquals(15, $result); 
+        $this -> assertSame(15, $result); 
     }
 
     public function testMultiply() {
@@ -27,7 +27,7 @@ class CalculatorTest extends \PHPUnit\Framework\TestCase {
         $result = $calculator -> multiply(20,5);
 
         //Asserts if two values are the same
-        $this -> assertEquals(100, $result); 
+        $this -> assertSame(100, $result); 
     }
 
     public function testDivide() {
@@ -36,7 +36,7 @@ class CalculatorTest extends \PHPUnit\Framework\TestCase {
         $result = $calculator -> divide(20,5);
 
         //Asserts if two values are the same
-        $this -> assertEquals(4, $result); 
+        $this -> assertSame(4, $result); 
     }
 }
 
