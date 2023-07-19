@@ -24,7 +24,7 @@ if(isset($_Post['submit'])) {
 
 } else {
 
-    // Print error message to the browser
+    // Otherwise prints error message to the browser
     echo 'Numeric values are required';
     }
 }
